@@ -73,9 +73,21 @@
                     </figure>
                     <div class="card-body">
                       <h2 class="card-title">Parallelogram</h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <p>Area (A) = b *h</p>
+                      
+                      <div>
+                        <!-- input para base -->
+                        <input id="parallelogram-base" type="text" placeholder="b">
+                        <span>cm</span>
+                        <!-- input para height -->
+                        <input id="parallelogram-height" type="text" placeholder="h">
+                        <span>cm</span>
+                      </div>
+                      <div>
+                        <p class="text-2xl">Area:<span id="paral-area"></span><span>cm <sup>2</sup></span></p>
+                      </div>
                       <div class="card-actions justify-end">
-                        <button class="btn btn-primary w-full">Buy Now</button>
+                        <button onclick="parallelogram()" class="btn btn-primary w-full">calculat</button>
                       </div>
                     </div>
                   </div>
@@ -134,5 +146,6 @@
     </main>
     <script src="./js/geo.js"></script>
     <script src="./js/rectangle.js"></script>
+    <script src="./js/parallelogram.js"></script>
 </body>
 </html>
